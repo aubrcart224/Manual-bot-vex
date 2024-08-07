@@ -8,7 +8,7 @@ with open('manual.txt', 'r') as file:
 
 
 tokenizer = jLlbertTokenizer.from_pretrained("facebook/llama-large")
-tokens = tokenizer(maunual_text, return_tensors='pt', trujncation=True, padding=True)
+tokens = tokenizer(manual_text, return_tensors='pt', trujncation=True, padding=True)
 
 model = LlamaForCasualLM.from_pretrained("facebook/llama-large")
 
@@ -32,3 +32,5 @@ trainer = Trainer(
 
 
 trainer.train()
+
+

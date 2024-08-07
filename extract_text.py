@@ -11,7 +11,7 @@ def extract_text_from_pdf(pdf_path):
     
 
 manual_text = extract_text_from_pdf('manual.pdf')
-with open('manual.txt', 'w') as file:
+with open('manual.txt', 'w') as text_file:
     text_file.write(manual_text)
 
     

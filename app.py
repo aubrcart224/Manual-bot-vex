@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from transformers import LlamaTokenizer, LlamaForCausalLM
 
-
 app = Flask(__name__)
 
 #load trained model and tokenizer

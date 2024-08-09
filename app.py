@@ -18,3 +18,6 @@ def chat():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
+
+#token token token setting this aside for a bit, will be back. 
